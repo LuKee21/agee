@@ -1,3 +1,8 @@
+* {
+    /* Change your font family */
+    font-family: sans-serif;
+}
+
 /* navbar parameters */
 ul {
     list-style-type: none;
@@ -57,4 +62,35 @@ h2 {
 /* Website background color */
 body {
     background: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.459));
+}
+
+
+.content-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table th,
+.content-table td {
+    padding: 15px;
+}
+
+.content-table tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tr.active-row {
+    font-weight: bold;
+    color: #1ec44f;
 }
